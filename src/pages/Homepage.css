@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: gold ;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    gap: 10px;
+}
+
+#buttonsArea {
+    color: white;
+}
+
+button {
+
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+
+
+}
+
+#button-back {
+    background-color: darkgray;
+
+}
+
+#button-forward {
+    background-color: blue;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gold;
+}
