@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
 header {
     display: flex;
     justify-content: center;
@@ -7,7 +15,6 @@ header {
 section {
     display: flex;
     justify-content: center;
-    /*border-style: solid;*/
     background-color: gold;
     gap: 10px;
 }
