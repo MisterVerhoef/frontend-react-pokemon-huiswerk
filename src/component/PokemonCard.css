@@ -1,0 +1,44 @@
+.pokemon-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    flex-basis: 100px;
+
+
+}
+
+#pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    border-style: solid;
+    width: 200px;
+
+
+    box-shadow: 2px 2px 15px 17px rgba(0,0,0,0.13);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    list-style: none;
+
+    gap: 10px;
+    padding: 10px;
+}
+
+li {
+
+    background-color: darkgray;
+
+}
